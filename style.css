@@ -18,6 +18,10 @@ body {
 	text-align: center;
 }
 
+img {
+	max-width: 100%;
+}
+
  button {
     background-color: #222235;
     border: #d8d8d8;
@@ -96,14 +100,14 @@ footer {
   /*EVERYTHING DOWN FROM HERE IS NOT CHECKED AND MIGHT OR MIGHT NOT BE BULLSHIT*/
 
 
-
+/*
 .simple-container {
 	background-color: #333;
 	min-height: 30%;
 	width: 675px;
 	margin: 0 auto;
 /*	padding-top: 70px;
-	padding-bottom: 20px;*/
+	padding-bottom: 20px;*//*
 	border: #aaa;
 	border-width: 5px;
 }
@@ -148,10 +152,8 @@ a[href] {
 a[href]:hover {
 	color: #3ba0e6;
 }
-*/
-img {
-	max-width: 100%;
-}
+*//*
+
 
 li {
 	line-height: 1.5em;
@@ -171,3 +173,4 @@ aside,
 		font-size: 18px;
 	}
 }
+*/
