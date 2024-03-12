@@ -18,6 +18,11 @@ body {
 	text-align: center;
 }
 
+::selection {
+    color: #282220;
+    background: #9967ff;
+}
+
 img {
 	max-width: 100%;
 }
@@ -36,7 +41,7 @@ img {
     transition: background-color 0.3s ease-in-out;
   }
 
-  #btn { /*maybe not necessary*/
+  #btn {
     z-index: 5;
     margin: 0 10px;
     cursor: pointer;
@@ -47,13 +52,8 @@ img {
     transition: 0.2s;
   }
 
-  #btn img:hover {
-    opacity: 0.8;
-    transform: scale(1.2);
-  }
-
   #btn:hover {
-/*    background-color: #090909;*/
+
 	opacity: 0.8;
 	transform: scale(1.05);
 	color: #eee;
@@ -71,15 +71,6 @@ p {
 
 h3 {
 	font-size: 16px;
-/*	line-height: 27px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-bottom: 1px solid #D8D8D8;
-	border-top: 1px solid #D8D8D8;*/
-}
-
-h3:hover {
-	color: #fff;
 }
 
 a {
@@ -90,87 +81,9 @@ a {
 }
 
 a[href]:hover {
-	color: #ffff88;
+	color: #ee66ff;
 }
 
 footer {
 	margin-top: 20%;
 }
-
-  /*EVERYTHING DOWN FROM HERE IS NOT CHECKED AND MIGHT OR MIGHT NOT BE BULLSHIT*/
-
-
-/*
-.simple-container {
-	background-color: #333;
-	min-height: 30%;
-	width: 675px;
-	margin: 0 auto;
-/*	padding-top: 70px;
-	padding-bottom: 20px;*//*
-	border: #aaa;
-	border-width: 5px;
-}
-
-.simple-print {
-	fill: white;
-	stroke: white;
-}
-.simple-print svg {
-	height: 100%;
-}
-
-.simple-close {
-	color: white;
-	border-color: white;
-}
-
-.simple-ext-info {
-	border-top: 1px solid #aaa;
-}
-
-
-
-h2 {
-	font-size: 20px;
-	line-height: 25px;
-}
-
-
-hr {
-	height: 1px;
-	background-color: #d8d8d8;
-	border: none;
-	width: 100%;
-	margin: 0px;
-}
-/*
-a[href] {
-	color: #1e8ad6;
-}
-
-a[href]:hover {
-	color: #3ba0e6;
-}
-*//*
-
-
-li {
-	line-height: 1.5em;
-}
-
-aside,
-[class *= "sidebar"],
-[id *= "sidebar"] {
-	max-width: 90%;
-	margin: 0 auto;
-	border: 1px solid lightgrey;
-	padding: 5px 15px;
-}
-
-@media (min-width: 1921px) {
-	body {
-		font-size: 18px;
-	}
-}
-*/
