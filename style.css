@@ -13,10 +13,27 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.75em;
 	font-size: 16px;
-	background-color: #222235;
+/*	background-color: #222235;*/
 	color: #eee;
 	text-align: center;
+    	background: linear-gradient(-45deg, #112266, #333544, #331138, #443840);
+    	background-size: 400% 400%;
+    	animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 
 ::selection {
     color: #282220;
@@ -28,7 +45,7 @@ img {
 }
 
  button {
-    background-color: #222235;
+    background: transparent;
     border: #d8d8d8;
     border-radius: 40px;
     color: #aaa;
@@ -42,14 +59,14 @@ img {
   }
 
   #btn {
-    z-index: 5;
-    margin: 0 10px;
-    cursor: pointer;
+    	z-index: 5;
+    	margin: 0 10px;
+    	cursor: pointer;
 	transition: 0.2s;
   }
 
   #btn img {
-    transition: 0.2s;
+    	transition: 0.2s;
   }
 
   #btn:hover {
